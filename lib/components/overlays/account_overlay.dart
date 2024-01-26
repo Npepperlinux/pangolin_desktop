@@ -81,7 +81,7 @@ class _AccountOverlayState extends ShellOverlayState<AccountOverlay> {
                         width: 328,
                         child: DecoratedBox(
                           decoration: BoxDecoration(
-                            color: Theme.of(context).surfaceColor,
+                            color: Theme.of(context).colorScheme.onSurface,
                           ),
                           child: const Padding(
                             padding: EdgeInsets.all(24.0),

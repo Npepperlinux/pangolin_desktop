@@ -56,7 +56,7 @@ class _ContextMenuState extends State<ContextMenu> {
           shape: const MaterialStatePropertyAll(Constants.mediumShape),
           side: MaterialStatePropertyAll(
             BorderSide(
-              color: ZenitThemeData(Theme.of(context)).foregroundColor.op(0.1),
+              color: ZenitThemeData(Theme.of(context)).accentForegroundColor.op(0.1),
             ),
           ),
         ),
